@@ -98,6 +98,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "angular-firebase:build:production",
+            "firebaseProject": "angular-nauka-6ca80",
+            "firebaseHostingSite": "angular-nauka-6ca80"
+          }
         }
       }
     }

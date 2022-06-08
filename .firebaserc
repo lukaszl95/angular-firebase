@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "angular-nauka-6ca80": {
+      "hosting": {
+        "angular-firebase": [
+          "angular-nauka-6ca80"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "angular-nauka-6ca80"
+  }
+}
